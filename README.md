@@ -1,54 +1,27 @@
-# universal_key
-A customizable universal key
+# Présentation
 
-An universal key (triangle, square or hexa)
+Une clé universelle (triangle, carrée, pentagonale, hexagonale, etc ...)
 
-I modeled a radiator bleed key (it's a 5mm square key) some time ago using Autodesk Fusion 360 software.
+Il y a 2 versions :
 
-Since then I discovered modeling with Openscad and realized that modeling an universal key in Openscad was not that complicated.
+Une version prévue pour l'application en ligne « Thingiverse Customizer » : **universal_key_customizer.scad**
 
-The advantage is that it is completely customizable!
+Une version pour ceux qui ont le logiciel Openscad : **universal_key.scad**
 
-So here it is
 
-If you have not already OpenScad, a free and light 3D modeling software, use the online Customizer tool available here to generate the stl file.
+Pour information, j'avais auparavant modélisé une clé de purge de radiateur (c'est une clé carrée de 5mm) avec le logiciel AUTODESK Fusion 360.
 
-But the best is to have OpenScad
+Entre temps j'ai découvert la modélisation avec OpenScad et j'ai réalisé que modéliser une clé universelle avec OpenScad n'était pas si compliqué que cela !
 
-Under OpenScad:
+La voici-donc.
 
-1 - Open the universal_key.scad file
+Les paramètres modifiables par l'utilisateur sont : NB_SIDES, DIAMETER_EXT, DIAMETER_INT et LENGTH
 
-2 - Edit the paramaters that are at the beginning of the scad file to personalize your battery holder
+Sur la version « Thingiverse Customizer », Le paramètre NB_SIDES est remplacé par le paramètre TYPE
 
-2 - Clic on the "calculate rendering" button (or press the F6 key)
 
-3 - Once the render calculation is complete, clic on the "STL" button (or press the F7 key)
+# Quelques images
 
-4 - That's all !
+![screenshot 1](images/universal_key_img04.png)
 
-VERSION FRANÇAISE :
-
-Une clé universelle triangle, carré ou hexagonale.
-
-J'avais auparavant modélisé une clé de purge de radiateur (c'est une clé carrée de 5mm) avec le logiciel AUTODESK Fusion 360.
-
-Depuis j'ai découvert la modélisation avec OpenScad et j'ai réalisé que modéliser une clé universelle avec OpenScad n'était pas si compliqué que cela !
-
-L'avantage avec OpenScad est que la clé est complètement paramétrable
-
-Si vous n'avez pas déjà OpenScad, un logiciel de modélisation 3D gratuit et léger, utilisez l'outil « Customizer » en ligne disponible ici pour générer le fichier stl.
-
-Mais le mieux est d'avoir openScad.
-
-Sous OpenScad :
-
-1 - Ouvrez le fichier universal_key.scad
-
-2 - Modifiez les paramètres qui sont au début du fichier scad pour personnaliser votre support de batterie
-
-2 - Cliquez sur le bouton "calculer le rendu" (ou appuyez sur la touche F6)
-
-3 - Une fois le calcul du rendu terminé, cliquez sur le bouton "STL" (ou appuyez sur la touche F7)
-
-4 - C'est tout !
+![screenshot 2](images/20231015_190216_HDR_resized_640x480.jpg)
